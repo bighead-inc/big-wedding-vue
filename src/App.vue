@@ -5,7 +5,12 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <header>
     <div class="wrapper">
-      <img alt="Loren and Hector Engagement Pic" src="./assets/engagement_photo.jpg" width="600" height="400" />
+      <img
+        alt="Loren and Hector Engagement Pic"
+        src="./assets/engagement_photo.jpg"
+        width="600"
+        height="400"
+      />
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/us">Us</RouterLink>

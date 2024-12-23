@@ -23,23 +23,23 @@ const router = createRouter({
     {
       path: '/qa',
       name: 'q&a',
-      component:  () => import('../views/QAView.vue')
+      component: () => import('../views/QAView.vue'),
     },
     {
       path: '/registry',
       name: 'registry',
-      component: WeddingRegistryView
+      component: WeddingRegistryView,
     },
     {
       path: '/schedule',
       name: 'schedule',
-      component: ScheduleView
+      component: ScheduleView,
     },
     {
       path: '/us',
       name: 'us',
-      component: UsView
-    }
+      component: UsView,
+    },
   ],
 })
 
