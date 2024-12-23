@@ -13,7 +13,7 @@ defineProps({
 
 <template>
   <div class="home-item">
-    <h1 class="header">{{ header }}</h1>
+    <h1 class="red">{{ header }}</h1>
     <h3 class="description">{{ description }}</h3>
   </div>
 </template>

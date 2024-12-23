@@ -13,8 +13,7 @@ defineProps({
 
 <template>
   <div class="qa-item">
-    <h1 class="question">{{ question }}</h1>
-
+    <h1 class="red">{{ question }}</h1>
     <h3 class="answer">{{ answer }}</h3>
   </div>
 </template>

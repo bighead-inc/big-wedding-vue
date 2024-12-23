@@ -13,7 +13,7 @@ defineProps({
 
 <template>
   <div class="schedule-item">
-    <h1 class="time">{{ time }}</h1>
+    <h1 class="red">{{ time }}</h1>
 
     <h3 class="event">{{ event }}</h3>
   </div>
