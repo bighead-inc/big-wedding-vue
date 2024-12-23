@@ -28,6 +28,7 @@ h1 {
 
 h3 {
   font-size: 1.2rem;
+  padding-left: 3px;
   padding-bottom: 10px;
 }
 </style>
