@@ -8,6 +8,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <img alt="Loren and Hector Engagement Pic" src="./assets/engagement_photo.jpg" width="600" height="400" />
       <nav>
         <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/us">Us</RouterLink>
         <RouterLink to="/schedule">Schedule</RouterLink>
         <RouterLink to="/registry">Registry</RouterLink>
         <RouterLink to="/qa">Q&A</RouterLink>
