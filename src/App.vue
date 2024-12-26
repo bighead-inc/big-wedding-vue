@@ -13,11 +13,11 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
 
     <nav class="flex flex-row">
-      <RouterLink class="basis-1/5 hover:text-slate-900" to="/">Home</RouterLink>
-      <RouterLink class="basis-1/5 hover:text-slate-900" to="/schedule">Schedule</RouterLink>
-      <RouterLink class="basis-1/5 hover:text-slate-900" to="/us">Us</RouterLink>
-      <RouterLink class="basis-1/5 hover:text-slate-900" to="/registry">Registry</RouterLink>
-      <RouterLink class="basis-1/5 hover:text-slate-900" to="/qa">Q&A</RouterLink>
+      <RouterLink class="basis-auto hover:text-slate-900" to="/">Home</RouterLink>
+      <RouterLink class="basis-auto hover:text-slate-900" to="/schedule">Schedule</RouterLink>
+      <RouterLink class="basis-auto hover:text-slate-900" to="/us">Us</RouterLink>
+      <RouterLink class="basis-auto hover:text-slate-900" to="/registry">Registry</RouterLink>
+      <RouterLink class="basis-auto hover:text-slate-900" to="/qa">Q&A</RouterLink>
     </nav>
   </header>
 
