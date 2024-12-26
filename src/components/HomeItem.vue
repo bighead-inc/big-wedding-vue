@@ -13,21 +13,9 @@ defineProps({
 
 <template>
   <div class="home-item">
-    <h1 class="red">{{ header }}</h1>
-    <h3 class="description">{{ description }}</h3>
+    <h1 class="red text-2xl/10">{{ header }}</h1>
+    <p class="description pl-1">{{ description }}</p>
   </div>
 </template>
 
-<style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 1.8rem;
-  position: relative;
-}
-
-h3 {
-  font-size: 1.2rem;
-  padding-bottom: 10px;
-  padding-left: 3px;
-}
-</style>
+<style scoped></style>

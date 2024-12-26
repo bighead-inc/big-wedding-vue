@@ -13,21 +13,7 @@ defineProps({
 
 <template>
   <div class="qa-item">
-    <h1 class="red">{{ question }}</h1>
-    <h3 class="answer">{{ answer }}</h3>
+    <h1 class="red text-2xl/10">{{ question }}</h1>
+    <p class="answer pl-1">{{ answer }}</p>
   </div>
 </template>
-
-<style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 1.8rem;
-  position: relative;
-}
-
-h3 {
-  font-size: 1.2rem;
-  padding-bottom: 10px;
-  padding-left: 3px;
-}
-</style>

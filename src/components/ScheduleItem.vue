@@ -13,22 +13,8 @@ defineProps({
 
 <template>
   <div class="schedule-item">
-    <h1 class="red">{{ time }}</h1>
+    <h1 class="red text-2xl/10">{{ time }}</h1>
 
-    <h3 class="event">{{ event }}</h3>
+    <p class="event pl-1">{{ event }}</p>
   </div>
 </template>
-
-<style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 1.8rem;
-  position: relative;
-}
-
-h3 {
-  font-size: 1.2rem;
-  padding-left: 3px;
-  padding-bottom: 10px;
-}
-</style>

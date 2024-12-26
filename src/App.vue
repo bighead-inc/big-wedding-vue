@@ -3,29 +3,30 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
+  <header class="mx-auto max-w-screen-xl mx-auto">
+    <div class="md:col-span-3">
       <img
-        class="object-cover"
+        class="rounded"
         alt="Loren and Hector Engagement Pic"
         src="./assets/engagement_photo.jpg"
-        width="600"
-        height="400"
       />
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/us">Us</RouterLink>
-        <RouterLink to="/schedule">Schedule</RouterLink>
-        <RouterLink to="/registry">Registry</RouterLink>
-        <RouterLink to="/qa">Q&A</RouterLink>
-      </nav>
     </div>
+
+    <nav class="flex flex-row">
+      <RouterLink class="basis-1/5 hover:text-slate-900" to="/">Home</RouterLink>
+      <RouterLink class="basis-1/5 hover:text-slate-900" to="/schedule">Schedule</RouterLink>
+      <RouterLink class="basis-1/5 hover:text-slate-900" to="/us">Us</RouterLink>
+      <RouterLink class="basis-1/5 hover:text-slate-900" to="/registry">Registry</RouterLink>
+      <RouterLink class="basis-1/5 hover:text-slate-900" to="/qa">Q&A</RouterLink>
+    </nav>
   </header>
 
-  <RouterView />
+  <main class="container mx-auto relative pl-2 lg:pl-6 lg:pt-12">
+    <RouterView />
+  </main>
 
-  <footer>
-    Made with love by Loren & Hector
+  <footer class="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
+    <p class="text-xs text-gray-500">Made with love by Loren & Hector</p>
   </footer>
 </template>
 
@@ -35,16 +36,11 @@ header {
   max-height: 100vh;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
 nav {
   width: 100%;
-  font-size: 12px;
   text-align: center;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 nav a.router-link-exact-active {
@@ -66,27 +62,9 @@ nav a:first-of-type {
 }
 
 @media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
   nav {
     text-align: left;
     margin-left: -1rem;
-    font-size: 1rem;
-
     padding: 1rem 0;
     margin-top: 1rem;
   }
