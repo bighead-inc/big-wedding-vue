@@ -6,6 +6,7 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>
     <div class="wrapper">
       <img
+        class="object-cover"
         alt="Loren and Hector Engagement Pic"
         src="./assets/engagement_photo.jpg"
         width="600"
