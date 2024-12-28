@@ -1,6 +1,6 @@
 # big-wedding-vue
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the wedding website for Loren & Hector.
 
 ## Recommended IDE Setup
 
@@ -32,4 +32,12 @@ npm run build
 
 ```sh
 npm run lint
+```
+
+## Deployment
+
+This is automatically done via GitHub actions when the following script is run:
+
+```sh
+./bin/deploy.sh
 ```
