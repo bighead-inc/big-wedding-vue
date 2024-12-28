@@ -12,12 +12,12 @@ import { RouterLink, RouterView } from 'vue-router'
       />
     </div>
 
-    <nav class="flex flex-row">
-      <RouterLink class="basis-auto hover:text-slate-900" to="/">Home</RouterLink>
-      <RouterLink class="basis-auto hover:text-slate-900" to="/schedule">Schedule</RouterLink>
-      <RouterLink class="basis-auto hover:text-slate-900" to="/us">Us</RouterLink>
-      <RouterLink class="basis-auto hover:text-slate-900" to="/registry">Registry</RouterLink>
-      <RouterLink class="basis-auto hover:text-slate-900" to="/qa">Q&A</RouterLink>
+    <nav class="flex flex-row justify-center divide-x">
+      <RouterLink class="basis-1/5 flex-auto hover:text-slate-900" to="/">Home</RouterLink>
+      <RouterLink class="basis-1/5 flex-auto hover:text-slate-900" to="/schedule">Schedule</RouterLink>
+      <RouterLink class="basis-1/5 flex-auto hover:text-slate-900" to="/us">Us</RouterLink>
+      <RouterLink class="basis-1/5 flex-auto hover:text-slate-900" to="/registry">Registry</RouterLink>
+      <RouterLink class="basis-1/5 flex-auto hover:text-slate-900" to="/qa">Q&A</RouterLink>
     </nav>
   </header>
 
@@ -49,24 +49,5 @@ nav a.router-link-exact-active {
 
 nav a.router-link-exact-active:hover {
   background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
 }
 </style>
