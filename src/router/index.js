@@ -18,24 +18,24 @@ const router = createRouter({
       component: () => import('../views/getting_started/AboutView.vue'),
     },
     {
-      path: '/qa',
-      name: 'q&a',
+      path: '/faq',
+      name: 'faq',
       component: () => import('../views/QAView.vue'),
     },
     {
       path: '/registry',
       name: 'registry',
-      component: () => import("../views/RegistryView.vue"),
+      component: () => import('../views/RegistryView.vue'),
     },
     {
       path: '/schedule',
       name: 'schedule',
-      component: () => import("../views/ScheduleView.vue"),
+      component: () => import('../views/ScheduleView.vue'),
     },
     {
       path: '/us',
       name: 'us',
-      component: () => import("../views/UsView.vue"),
+      component: () => import('../views/UsView.vue'),
     },
   ],
 })

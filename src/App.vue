@@ -14,10 +14,14 @@ import { RouterLink, RouterView } from 'vue-router'
 
     <nav class="flex flex-row justify-center divide-x">
       <RouterLink class="basis-1/5 flex-auto hover:text-slate-900" to="/">Home</RouterLink>
-      <RouterLink class="basis-1/5 flex-auto hover:text-slate-900" to="/schedule">Schedule</RouterLink>
+      <RouterLink class="basis-1/5 flex-auto hover:text-slate-900" to="/schedule"
+        >Schedule</RouterLink
+      >
       <RouterLink class="basis-1/5 flex-auto hover:text-slate-900" to="/us">Us</RouterLink>
-      <RouterLink class="basis-1/5 flex-auto hover:text-slate-900" to="/registry">Registry</RouterLink>
-      <RouterLink class="basis-1/5 flex-auto hover:text-slate-900" to="/qa">Q&A</RouterLink>
+      <RouterLink class="basis-1/5 flex-auto hover:text-slate-900" to="/registry"
+        >Registry</RouterLink
+      >
+      <RouterLink class="basis-1/5 flex-auto hover:text-slate-900" to="/faq">FAQ</RouterLink>
     </nav>
   </header>
 

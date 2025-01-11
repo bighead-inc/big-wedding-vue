@@ -2,10 +2,12 @@
 import ScheduleItem from '@/components/ScheduleItem.vue'
 
 const scheduleItems = [
-  { time: '11am', event: 'Ceremony' },
-  { time: '12pm', event: 'Brunch' },
+  { time: '11am', event: 'Doors Open' },
+  { time: '11:15am', event: 'Ceremony' },
+  { time: '11:45am', event: 'Posed pictures/Drinks' },
+  { time: '12:15pm', event: 'Food' },
   { time: '1pm', event: 'Live Music' },
-  { time: '2pm', event: 'Bye' },
+  { time: '1:30pm', event: 'Dessert, Toast & Bye' }
 ]
 </script>
 
