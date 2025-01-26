@@ -1,0 +1,1 @@
+import{_ as o,c as s,a as e,o as r}from"./index-CNzX-jFV.js";const n={},a={class:"registry"};function l(c,t){return r(),s("div",a,t[0]||(t[0]=[e("ul",null,[e("li",null,[e("a",{class:"hover:text-slate-900",href:"https://www.amazon.com",target:"_blank",rel:"noopener"},"Coming Soon!")])],-1)]))}const _=o(n,[["render",l]]);export{_ as default};
