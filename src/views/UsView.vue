@@ -3,7 +3,7 @@
   <h4 class="red">By Hector</h4>
 
   <div class="us">
-    <p class="mt-2">
+    <p class="first-letter:float-left first-letter:mr-3 first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 first-line:tracking-widest first-line:uppercase mt-2">
       Early on in the relationship, we would frequently eat Mexican food. Loren feeling embarrassed to down a burrito by herself, would often complain to Hector that he didn’t eat burritos. Despite what Loren might say, the truth is that I was already prepared for Tacos — i was ready to live Mas. This burrito deprivation would continuously bring up the same allegations, eventually resulting in fake news such as “Hector doesn’t eat burritos.”
     </p>
     <p class="mt-2">
