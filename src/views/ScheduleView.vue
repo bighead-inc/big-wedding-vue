@@ -13,7 +13,7 @@ const dayScheduleItems = [
 
 <template>
   <div class="schedule">
-    <h1 class="red text-2xl/10">Day Schedule:</h1>
+    <h1 class="red text-3xl/10">Day Schedule</h1>
     <ScheduleItem
       v-for="item in dayScheduleItems"
       :time="item.time"
@@ -22,7 +22,7 @@ const dayScheduleItems = [
     />
     <br>
     <br>
-    <h1 class="red text-2xl/10">Night Schedule:</h1>
+    <h1 class="red text-3xl/10">Night Schedule</h1>
     <ScheduleItem
       time='6pm'
       event='Drinks'

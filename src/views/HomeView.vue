@@ -15,13 +15,11 @@ const items = [
 </script>
 
 <template>
-  <main>
-    <HomeItem
-      v-for="item in items"
-      :header="item.header"
-      :description="item.description"
-      :link="item.link"
-      :key="item.header"
-    />
-  </main>
+  <HomeItem
+    v-for="item in items"
+    :header="item.header"
+    :description="item.description"
+    :link="item.link"
+    :key="item.header"
+  />
 </template>

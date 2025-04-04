@@ -3,8 +3,8 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <div class="w-max max-w-full flex flex-col md:flex-row md:max-h-screen md:contents">
-    <div class="max-w-screen-xl flex flex-col md:flex-row md:flex-wrap md:sticky md:content-center">
+  <div class="w-max max-w-full flex flex-col md:grid md:grid-flow-col md:grid-rows-3 md:flex-row md:flex-wrap md:max-h-svh md:contents">
+    <div class="max-w-screen-xl flex flex-col md:flex-row md:flex-wrap md:sticky md:row-span-2 md:self-start">
       <div class="flex flex-col md:flex-row md:box-border md:object-contain">
         <img
           alt="Loren and Hector Engagement Pic"
@@ -26,17 +26,17 @@ import { RouterLink, RouterView } from 'vue-router'
         </nav>
       </header>
 
+      <footer class="flex flex-col md:flex-row md:content-left mx-auto max-w-screen-xl md:space-y-8 md:px-4 md:py-16 px-6 lg:space-y-16 lg:px-8 md:grid-rows-1 md:row-start-3 md:row-end-3">
+        <p class="text-xs text-gray-500">Made with love by Loren & Hector</p>
+      </footer>
     </div>
 
     <div class="overflow-auto flex-col md:flex-row">
-      <main class="container mx-auto relative pl-2 lg:pl-6 lg:pt-12 md:max-h-screen md:mx-auto md:overflow-scroll-y">
+      <main class="container mx-auto relative pl-2 lg:pl-6 lg:pt-12 md:mx-auto md:overflow-scroll-y md:self-center grow">
         <RouterView />
       </main>
     </div>
 
-    <footer class="flex flex-colmd:flex-row md:content-left justify-center divide-x mx-auto max-w-screen-xl md:space-y-8 md:px-4 md:py-16 px-6 lg:space-y-16 lg:px-8">
-      <p class="text-xs text-gray-500">Made with love by Loren & Hector</p>
-    </footer>
   </div>
 </template>
 
