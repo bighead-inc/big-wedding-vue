@@ -24,7 +24,7 @@ const dayScheduleItems = [
     <br>
     <h1 class="red text-3xl/10">Night Schedule</h1>
     <ScheduleItem
-      time='6 pm'
+      time='5 pm'
       event='Drinks & Revelry'
     />
   </div>
